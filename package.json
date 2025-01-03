@@ -1,6 +1,6 @@
 {
   "publishConfig": {
-  "registry": "https://npm.pkg.github.com/@stelco"
+    "registry": "https://npm.pkg.github.com/@stelco"
   },
   "name": "@stelco/shared-components",
   "version": "1.0.0",
