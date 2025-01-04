@@ -38,19 +38,15 @@ const Button: React.FC<ButtonProps> = ({
   ...props
 }) => {
   return (
-    <>
     <StyledButton
       type="button"
       onClick={onClick}
-      primary={primary}
       disabled={disabled}
       size={size}
       {...props}
     >
       {text}
     </StyledButton>
-    <div>test SC</div>
-    </>
   );
 };
 
